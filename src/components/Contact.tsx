@@ -108,7 +108,7 @@ export function Contact() {
 
                 <button
                   type="submit"
-                  className="w-full inline-flex items-center justify-center gap-2 px-8 py-3 bg-[var(--color-foreground)] text-[var(--color-background)] rounded-lg hover:opacity-90 transition-opacity"
+                  className="w-full inline-flex items-center justify-center gap-2 px-8 py-3 bg-[var(--color-primary)] text-white rounded-lg hover:bg-[var(--color-primary-hover)] transition-colors"
                 >
                   <Send size={18} />
                   Enviar mensaje

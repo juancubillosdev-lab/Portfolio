@@ -68,7 +68,7 @@ export function Timeline() {
 
           <div className="relative">
             {/* Vertical Line */}
-            <div className="absolute left-8 top-0 bottom-0 w-px bg-[var(--color-border)]"></div>
+            <div className="absolute left-8 top-0 bottom-0 w-px bg-[var(--color-primary)]"></div>
 
             {/* Events */}
             <div className="space-y-12">
@@ -82,7 +82,7 @@ export function Timeline() {
                   className="relative pl-20"
                 >
                   {/* Icon */}
-                  <div className="absolute left-0 w-16 h-16 bg-[var(--color-card)] border-2 border-[var(--color-border)] rounded-full flex items-center justify-center">
+                  <div className="absolute left-0 w-16 h-16 bg-[var(--color-primary-light)] border-2 border-[var(--color-primary)] rounded-full flex items-center justify-center text-[var(--color-primary)]">
                     {event.type === "work" ? (
                       <Briefcase size={24} strokeWidth={1.5} />
                     ) : (

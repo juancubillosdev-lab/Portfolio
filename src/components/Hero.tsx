@@ -57,7 +57,7 @@ export function Hero() {
           <div className="flex flex-wrap justify-center gap-4">
             <a
               href="#projects"
-              className="inline-flex items-center gap-2 px-8 py-3 bg-black dark:bg-white text-white dark:text-black rounded-lg hover:opacity-90 transition-opacity"
+              className="inline-flex items-center gap-2 px-8 py-3 bg-[var(--color-primary)] text-white rounded-lg hover:bg-[var(--color-primary-hover)] transition-colors"
             >
               Ver proyectos
               <ArrowRight size={18} />
@@ -73,8 +73,8 @@ export function Hero() {
         </motion.div>
 
         {/* Geometric Background Elements */}
-        <div className="absolute top-20 left-10 w-72 h-72 bg-[var(--color-muted)] rounded-full blur-3xl opacity-20 -z-10"></div>
-        <div className="absolute bottom-20 right-10 w-96 h-96 bg-[var(--color-muted)] rounded-full blur-3xl opacity-20 -z-10"></div>
+        <div className="absolute top-20 left-10 w-72 h-72 bg-[var(--color-primary)] rounded-full blur-3xl opacity-20 -z-10"></div>
+        <div className="absolute bottom-20 right-10 w-96 h-96 bg-[var(--color-primary)] rounded-full blur-3xl opacity-20 -z-10"></div>
       </div>
     </section>
   );
