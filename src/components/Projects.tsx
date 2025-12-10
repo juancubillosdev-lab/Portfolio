@@ -10,7 +10,7 @@ export function Projects() {
     {
       title: "Portafolio",
       description: "Portafolio personal creado con React.js y Tailwind CSS.",
-      image: "/images/portfolio.png",
+      image: "./images/portfolio.png",
       technologies: [
         "React",
         "JavaScript",
@@ -28,7 +28,7 @@ export function Projects() {
       title: "Grower App",
       description:
         "Aplicación de gestión de cultivos con visualizaciones interactivas.",
-      image: "/images/grower-app-dashboard.png",
+      image: "./images/grower-app-dashboard.png",
       technologies: ["Vue.js", "PHP", "SQL", "Docker", "Git", "HTML", "CSS"],
       category: "Full-Stack",
       url: "https://www.growerapp.co/",
@@ -38,7 +38,7 @@ export function Projects() {
       title: "GrowerApp Mobile",
       description:
         "Aplicación móvil para gestión de cultivos con visualizaciones interactivas.",
-      image: "/images/grower-monitoreo.png",
+      image: "./images/grower-monitoreo.png",
       technologies: ["React Native", "SQLite", "Docker", "Git", "HTML", "CSS"],
       category: "Full-Stack",
       url: "https://www.growerapp.co/",
@@ -59,7 +59,7 @@ export function Projects() {
       title: "BlumSales",
       description:
         "ERP gestion de inventarios ventas y compras conectado a un sistema de corte de cultivos e interfaces ICA.",
-      image: "/images/blum-dashboard.png",
+      image: "./images/blum-dashboard.png",
       technologies: [
         "Vue.js",
         "PHP",
